@@ -10,7 +10,7 @@ let number = 1;
 
 function takeANumber2 (katzDeliLine, x) {
   katzDeliLine.push(number);
-  number++;
+  ++number;
   return `You are ${number} in line.`;
 }
 
