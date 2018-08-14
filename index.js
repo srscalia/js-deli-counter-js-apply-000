@@ -6,6 +6,7 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${position} in line.`;
 }
 
+let number = 1;
 
 function takeANumber2 (katzDeliLine, x) {
   let number = 1;
