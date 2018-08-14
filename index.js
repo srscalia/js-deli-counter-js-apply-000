@@ -8,7 +8,7 @@ function takeANumber(katzDeliLine, name) {
 
 let number = 0;
 
-function takeANumber2 (katzDeliLine, x) {
+function takeANumber2 (katzDeliLine) {
   number++;
   katzDeliLine.push(number);
   return `You are ${number} in line.`;
